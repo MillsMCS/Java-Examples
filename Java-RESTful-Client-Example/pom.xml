@@ -94,18 +94,20 @@
     </dependency>
 
     <!-- End Apache CXF dependencies -->
-    <!-- Begin Netflix Feign dependencies -->
+    <!-- Begin Open Feign dependencies -->
+    <!-- https://mvnrepository.com/artifact/io.github.openfeign/feign-core -->
     <dependency>
-      <groupId>com.netflix.feign</groupId>
-      <artifactId>feign-core</artifactId>
-      <version>8.18.0</version>
+        <groupId>io.github.openfeign</groupId>
+        <artifactId>feign-core</artifactId>
+        <version>11.0</version>
     </dependency>
+    <!-- https://mvnrepository.com/artifact/io.github.openfeign/feign-jackson -->
     <dependency>
-      <groupId>com.netflix.feign</groupId>
-      <artifactId>feign-jackson</artifactId>
-      <version>8.18.0</version>
+        <groupId>io.github.openfeign</groupId>
+        <artifactId>feign-jackson</artifactId>
+        <version>11.0</version>
     </dependency>
-    <!-- End Netflix Feign dependencies -->
+    <!-- End Open Feign dependencies -->
     <!-- Begin Unirest dependencies -->
     <dependency>
       <groupId>com.mashape.unirest</groupId>
